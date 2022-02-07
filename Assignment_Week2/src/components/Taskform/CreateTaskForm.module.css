@@ -1,0 +1,138 @@
+.container {
+  align-items: initial;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times";
+}
+.form{
+  background-color: yellowgreen;
+  padding: 10px 50px;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-left: -950px;
+}
+.form > label {
+  margin-bottom: 4px;
+  font-size: 20px;
+  color: rgb(134, 3, 3);
+}
+
+.form > h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  color: rgb(134, 3, 3);
+}
+
+.form > input {
+  padding: 10px 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+.form > select {
+  padding: 10px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.form > textarea {
+  padding: 20px 0;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman';
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+.sub_button {
+  padding: 17px 30px;
+  margin-top: 10px;
+  background: rgb(58, 107, 180);
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Times New Roman';
+  border-radius: 3px;
+  cursor: pointer;
+}
+.sub_button:hover{
+  transform: scale(1.1);
+}
+@media only screen and (min-width: 768px) {
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: -950px;
+  }
+
+  .form > label {
+    margin-bottom: 4px;
+    margin-bottom: 4px;
+    font-size: 20px;
+    color: rgb(134, 3, 3);
+  }
+
+  .form > h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    color: rgb(134, 3, 3);
+  }
+
+  .form > input {
+    padding: 10px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .form > select {
+    padding: 10px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman';
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .form > textarea {
+    padding: 15px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    
+    font-family: 'Times New Roman';
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .sub_button {
+    padding: 17px 30px;
+    margin-top: 10px;
+    background: rgb(58, 107, 180);
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .sub_button:hover{
+    transform: scale(1.1);
+  }
+}

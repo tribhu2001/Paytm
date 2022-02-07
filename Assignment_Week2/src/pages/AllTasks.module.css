@@ -1,0 +1,48 @@
+.container {
+  margin-left: 30px;
+  margin-right: auto;
+  background-color: yellowgreen;
+  padding: 0px 40px;
+  border-radius: 10px;
+}
+
+.container > h1 {
+  color: rgb(212, 19, 19);
+  margin-top: 20px;
+  font-size: 40px;
+}
+.container > h3 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: rgb(212, 19, 19);
+}
+
+.container > button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(10, 138, 177);
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 2px 2px rgb(1, 41, 53);
+}
+
+.container > button:hover{
+  background-color: blue;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 50%;
+  }
+  .container > h1 {
+    font-size: 40px;
+  }
+  .container > h3 {
+    font-size: 30px;
+  }
+}
